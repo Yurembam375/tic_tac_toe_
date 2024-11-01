@@ -1,3 +1,4 @@
+import GameBorad from "./componets/Gamebord"
 import Player from "./componets/Player"
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Player intialName="Player 1" symbol="X" />
           <Player intialName="Player 2" symbol="O" />
         </ol>
-        Game Board
+       <GameBorad/>
 
       </div>
       logo
